@@ -21,7 +21,7 @@ public final class PhoneNumberFactory {
     /**
      * @param phoneNumberCount - number of PhoneNumber objects to instantiate
      * @return array of randomly generated PhoneNumber objects
-     */ //TODO - Implement logic
+     */
     public static PhoneNumber[] createRandomPhoneNumberArray(int phoneNumberCount) {
             PhoneNumber [] arrayOfNumbers= new PhoneNumber[phoneNumberCount];
 
@@ -34,7 +34,7 @@ public final class PhoneNumberFactory {
 
     /**
      * @return an instance of PhoneNumber with randomly generated phone number value
-     */ //TODO - Implement logic
+     */
     private static PhoneNumber createRandomPhoneNumber() {
          int areaCode =RandomNumberFactory.createInteger(200, 999);
          int centralOfficeCode= RandomNumberFactory.createInteger(200,999);
